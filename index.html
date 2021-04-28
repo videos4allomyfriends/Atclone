@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Welcome To Atlas</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar sticky-top navbar-light bg-dark">
+
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#"><img class="brand" src="public/ATT.png" alt=""></a>
+
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+        aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Current Job</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Help</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tech Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Previous Jobs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tools</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Website-->
+  <div class="card finished" style="width: 18rem;">
+  <img src="public/atlas.png" class="card-img-top" alt="Atlas Logo">
+  <div class="card-body">
+    <p class="card-text">Looks Like You've Finished Your Work Day.</p>
+    <button class="btn btn-primary" id="EndWorkDay" type="submit">End My Work Day</button>
+  </div>
+</div>
+  <div class="date-div">
+<input type="date" id="date" class="date" name="date"
+       value="2021-04-27"
+       min="2021-04-01" max="2021-04-27">
+  </div>
+  <h2>Your Jobs</h2>
+  <!--Joblist-->
+  <div class="Joblist card w-50">
+  <div class="card-body">
+    <p class="card-text">There are no jobs assigned to you at this time.</p>
+  </div>
+</div>
+<!--Dispatch-->
+<button type="button" name="Request A Job" class="btn btn-primary z1">
+Refresh Worklist
+</button>
+<button class="btn btn-primary z1" type="button">
+  <span class="spinner-grow spinner-grow-sm" role="status"></span>
+  Request A Job
+</button>
+<hr>
+<button type="button" class="btn btn-dark pause" name="button">
+Pause Work Day</button>
+  </body>
+</html>

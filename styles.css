@@ -1,0 +1,58 @@
+body{
+  background-image: linear-gradient(to bottom right, #a9a9a9, #F2F6FB, #F2F6FB, #43c3f1, #a9a9a9);
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+.navbar-collapse.in {
+    display: block !important;
+}
+.brand {
+max-width: 20%;
+margin-left: -250px;
+}
+.finished{
+  width: 20%;
+  background-color: white;
+  padding: 5px;
+  margin: 100px auto 20px auto;
+  border-radius: 10px;
+}
+.date-div{
+  width: 30%;
+  background-color: white;
+  padding: 0px;
+  margin: 20px auto;
+  border-radius: 10px;
+
+}
+#EndWorkDay{
+  background-color: ##43c3f1;
+}
+.date{
+  display: relative;
+  border: white;
+  font-size: 16px;
+}
+.Joblist{
+  width: 20%;
+  background-color: white;
+  padding: 5px;
+  margin: 10px auto 20px auto;
+  border-radius: 10px;
+}
+.z1{
+  margin-bottom: 25px;
+}
+hr
+{
+width: 80%;
+height: 2px;
+background-color: white;
+margin-bottom: 30px;
+margin-top: 9px;
+width: 30%
+}
+.pause{
+  margin-bottom: 50px;
+  width: 30%
+}
